@@ -179,7 +179,7 @@
                             $("#error").html("<p align='center'><img src='imagenes/ajax-loader.gif' /></p>");
                         },
                         success: function (data) {
-                            var res = JSON.parse(data);// $.parseJSON(data);
+                            var res = JSON.parse(data);
                             $("#imgProfile").attr("src",res.url);
                         },
                         error: function (e) {
